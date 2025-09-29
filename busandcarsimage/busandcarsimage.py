@@ -23,7 +23,7 @@ CLASSES = ["background", "aeroplane", "bicycle", "bird", "boat",
 COLORS = np.random.uniform(0, 255, size=(len(CLASSES), 3))
 
 # مسیر تصویر
-image_path = "E:\FileTasvir\imagebusandcars.png"   # مسیر تصویر خودت
+image_path = "imagebusandcars.png"   # مسیر تصویر خودت
 image = cv2.imread(image_path)
 (h, w) = image.shape[:2]
 
